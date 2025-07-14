@@ -1,16 +1,6 @@
 version: 2
 
 sources:
-  - name: googles_analytics_4_us
-    schema: google_analytics_4
-    tables:
-      - name: events_20210131
-      
-  - name: google_sheets_us
-    schema: google_sheets
-    tables:
-      - name: account_manager_region_mapping
-
   - name: sales_database
     schema: sales_database
     tables:
