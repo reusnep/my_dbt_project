@@ -45,11 +45,11 @@ models:
     staging:
       materialized: view
       google_analytics:
-        schema: stg_google_analytics
+        schema: stg_google_analytics_us
       sales_database:
         schema: stg_sales_database
       google_sheets:
-        schema: stg_google_sheets
+        schema: stg_google_sheets_us
 
     intermediate:
       materialized: view
