@@ -1,4 +1,4 @@
-{% docs int_google_analytics__session %}
+{% docs int_google_analytics_us__session %}
 
 This model aggregates GA4 events at the session level, creating a `unique_session_id` by combining `user_pseudo_id` and `ga_session_id`. It tracks key session details such as session start and end times, duration, pages viewed, and traffic source.
 
